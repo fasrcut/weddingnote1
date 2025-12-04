@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-        { "src": "public/index.php", "use": "vercel-php@0.6.0" },
+        { "src": "public/index.php", "use": "vercel-php@0.7.2" },
         { "src": "public/**", "use": "@vercel/static" }
     ],
     "routes": [
@@ -13,8 +13,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://your-vercel-project-url.vercel.app",
-        "APP_KEY": "=base64:IUbrZ8KsIxD2/l0ha7VuwEXMmxj/YtLH+uqdy0gBi3c="
-        
+        "APP_URL": "https://weddingnote1.vercel.app", 
+        "APP_KEY": "base64:IUbrZ8KsIxD2/l0ha7VuwEXMmxj/YtLH+uqdy0gBi3c="
     }
 }
